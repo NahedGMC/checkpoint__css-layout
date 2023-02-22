@@ -1,0 +1,331 @@
+/*-- .container{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-area:  
+  "nav nav nav nav"
+  "sidebar main main main"
+  "sidebar content1 content2 content3"
+  "sidebar footer footer footer";
+  grid-gap: 0.2rem;
+}
+
+nav{
+  background: #a7ffa7;
+grid-area: nav;
+}
+
+main{
+  background: #84ffff;
+  grid-area:main;
+}
+
+#sidebar{
+  background: #93c3df;
+  grid-area:sidebar;
+}
+#content1{
+  background: #6fffd2;
+  grid-area:content1;
+}
+
+#content2{
+  background: #00b39b;
+  grid-area:content2;
+}
+
+#content3{
+  background: #0f8b64;
+  grid-area:content3;
+}
+
+footer{
+  background: #1de9b6;
+  grid-area:footer;
+}--*/
+
+
+
+
+
+
+
+
+
+/*-- logo&navbar--*/
+
+.logo {
+  width: 268px;
+  height: 33px;
+  padding-left: 15%;
+}
+
+.navbar{
+  background: white;
+}
+.menu__bar{ 
+  float:right;
+  padding-right: 15%;
+}
+
+* {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;  
+  background: transparent;
+  
+}
+ul li {
+ padding: 10px 30px;
+}
+
+ul li a {
+  color: #ababab;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s;
+}
+ul li ul.dropdown li {
+  display: block;
+}
+ul li ul.dropdown {
+  width: 100%;
+  background:white;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover {
+  color: #00b39b;
+}
+ul li:hover ul.dropdown {
+  background: transparent;
+  display: block;
+ color: #00b39b;
+}
+
+  /*-- body --*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logobody{
+  margin: 75px 45%;
+}
+.h1s1{
+  color: #00b39b;
+  font-family: Monospace;
+  margin: 34px 25%;
+  margin-top: -5%;
+  text-align: center;
+}
+
+
+/*--section1--*/
+
+.divp1{
+
+  font-family: Monospace;
+  color: #747474;
+  font-size: 16px;
+  width: 35%;
+  margin-left: 10%;
+  float: left;
+  text-align: left;
+}
+.divp2{
+  font-size: 16px;
+  font-family: Monospace;
+  color: #747474;
+  width: 35%;  
+  float: right;
+  text-align: left;
+  margin-right: 12%;
+}
+
+/*--section2--*/
+.div1s2{
+  margin-top: 5%;
+  background:#00b39b;
+  color: white;
+  height: 345px;
+  width: 20%;
+  margin-left: 10%;
+  float: left;
+  text-align: left;
+  border-radius: 10px;
+}
+.div2s2{
+  margin-top: 5%;
+  background: #3d83df;
+  height: 345px;
+  width: 20%;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  float: left;
+  text-align: left;
+  border-radius: 10px;
+
+}
+.div3s2{
+  margin-top: 5%;
+  background: #1b2734;
+  height: 345px;
+  width: 20%;
+  color:white;
+  margin-right: 10%;
+  float: left;
+  text-align: left;
+  border-radius: 10px;
+}
+
+/*--section2--*/
+
+.div__title{
+  margin-left: -7%;
+}
+
+.inside__div{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;  
+}
+
+#choose{
+  margin-top: 30%;
+  font-size: 20px;
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+#choose1{
+  margin-top: 15%;
+  margin-left: -9%;
+  font-size: 20px;
+  border: none;
+  background:transparent;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.selector{
+  color: white;
+}
+
+/*--section3--*/
+.flex__container{
+  display: flex;
+}
+.flex__container__h1{
+  color: #00b39b;
+  display: flex;
+  text-align:center;
+  width: 300px;
+  font-family: 'Gloock', serif;
+
+  
+}
+.container__list{
+  color: #ababab;
+  width: auto;
+  height: 20px
+
+}
+
+/*--list__items--*/
+
+.gipo{
+
+  width: 50px;
+}
+.clinicloud{
+width: 70px;
+}
+
+
+
+
+/*--section5--*/
+
+.big__div__s5{
+  background: #e5faf8;
+  
+}
+
+.img__s5{
+  position:fixed; 
+  overflow:hidden;
+}
+
+.h1__s5{
+color:#00b39b;
+font-family: Monospace;
+margin-left: 10%;
+padding-top: 9%;
+}
+.h5__s5{
+  font-family: Monospace;
+  color: #ababab;
+  font-size: 16px;
+  margin-left: 10%;
+}
+/*--section6--*/
+.h1__footer{
+  color: #ababab;
+  text-align: center;
+  font-family: monospace;
+}
+.h6__footer{
+  color: #ababab;
+  text-align: center;
+
+}
+.div__footer{
+  font-family: Monospace;
+  color: #747474;
+  font-size: 16px;
+  width: 35%;
+  margin-top:3%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
